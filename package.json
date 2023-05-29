@@ -1,5 +1,5 @@
 {
-  "name": "tkit",
+  "name": "msdk",
   "version": "1.0.0",
   "description": "A typescript kit",
   "main": "./lib/index.umd.js",
@@ -11,6 +11,11 @@
     "build": "node_modules/.bin/rollup -c ./build/rollup.config.prod.js",
     "lint": "eslint src/**/*.* --ext",
     "fix": "eslint src/**/*.* --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcodeshare/msdk.git",
+    "directory": "mcodeshare/msdk"
   },
   "keywords": [
     "javascript",
