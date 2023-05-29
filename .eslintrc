@@ -1,0 +1,23 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "rules": {
+    "no-console": "off", // 允许代码存在console
+    "no-debugger": "error", // 不允许代码存在debugger
+    "eqeqeq": "error", // 必须使用 ===
+    "quotes": ["error", "single", { "avoidEscape": true }], // 尽量使用单引号
+    "semi": ["error", "never"], // 不使用分号
+    "spaced-comment": ["error", "always"], // 注释前需存在一个空格
+    "space-before-function-paren": ["error", "always"], // 函数名后加空格
+    "@typescript-eslint/no-explicit-any": ["off"], // 允许TS使用any
+    // "no-case-declarations": "off", //switch case中允许存在多行代码不使用{}包裹
+    "@typescript-eslint/ban-ts-comment": "off", //允许使用 // @ts-ignore
+    "eol-last": "error" //文件最后必须存在一个空行
+  }
+}

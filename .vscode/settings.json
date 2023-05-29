@@ -1,0 +1,8 @@
+{
+  "search.exclude": {
+    //禁止搜索的目录
+    "**/node_modules": true,
+    "**/lib": true,
+    "**/dist": true
+  }
+}
